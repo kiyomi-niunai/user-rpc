@@ -4,10 +4,10 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/kiyomi-niunai/user/internal/config"
-	"github.com/kiyomi-niunai/user/internal/server"
-	"github.com/kiyomi-niunai/user/internal/svc"
-	"github.com/kiyomi-niunai/user/user"
+	"github.com/kiyomi-niunai/user-rpc/internal/config"
+	"github.com/kiyomi-niunai/user-rpc/internal/server"
+	"github.com/kiyomi-niunai/user-rpc/internal/svc"
+	"github.com/kiyomi-niunai/user-rpc/user"
 
 	"github.com/tal-tech/go-zero/core/conf"
 	"github.com/tal-tech/go-zero/core/service"

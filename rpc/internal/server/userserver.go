@@ -6,9 +6,9 @@ package server
 import (
 	"context"
 
-	"rpc/internal/logic"
-	"rpc/internal/svc"
-	"rpc/user"
+	"github.com/kiyomi-niunai/user/blob/master/rpc/internal/logic"
+	"github.com/kiyomi-niunai/user/blob/master/rpc/internal/svc"
+	"github.com/kiyomi-niunai/user/blob/master/rpc/user"
 )
 
 type UserServer struct {

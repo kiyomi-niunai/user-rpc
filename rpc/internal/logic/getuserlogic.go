@@ -3,15 +3,13 @@ package logic
 import (
 	"context"
 	"fmt"
+	"github.com/kiyomi-niunai/user/blob/master/rpc/model"
 	"github.com/tal-tech/go-zero/core/stores/cache"
 	"github.com/tal-tech/go-zero/core/stores/sqlx"
-	"rpc/model"
 
-
-
+	"github.com/kiyomi-niunai/user/blob/master/rpc/internal/svc"
+	"github.com/kiyomi-niunai/user/blob/master/rpc/user"
 	"github.com/tal-tech/go-zero/core/logx"
-	"rpc/internal/svc"
-	"rpc/user"
 )
 
 type GetUserLogic struct {

@@ -1,6 +1,6 @@
 package svc
 
-import "rpc/internal/config"
+import "github.com/kiyomi-niunai/user/blob/master/rpc/internal/config"
 
 type ServiceContext struct {
 	Config config.Config

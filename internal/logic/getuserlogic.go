@@ -3,12 +3,12 @@ package logic
 import (
 	"context"
 	"fmt"
-	"github.com/kiyomi-niunai/user-rpc/model"
+	"github.com/kiyomi-niunai/user/model"
 	"github.com/tal-tech/go-zero/core/stores/cache"
 	"github.com/tal-tech/go-zero/core/stores/sqlx"
 
-	"github.com/kiyomi-niunai/user-rpc/internal/svc"
-	"github.com/kiyomi-niunai/user-rpc/user"
+	"github.com/kiyomi-niunai/user/internal/svc"
+	"github.com/kiyomi-niunai/user/user"
 	"github.com/tal-tech/go-zero/core/logx"
 )
 

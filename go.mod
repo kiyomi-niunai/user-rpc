@@ -1,4 +1,4 @@
-module github.com/kiyomi-niunai/user-rpc
+module github.com/kiyomi-niunai/user
 
 go 1.16
 

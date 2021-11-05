@@ -1,4 +1,4 @@
-module rpc
+module github.com/kiyomi-niunai/user/blob/main/rpc/userclient
 
 go 1.16
 
